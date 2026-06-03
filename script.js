@@ -101,8 +101,7 @@ async function handleSubmit(e) {
         form.reset();
     } catch (error) {
         console.error('Web3Forms error:', error);
-        const details = error && (error.message || error.toString()) ? ' (' + (error.message || error.toString()) + ')' : '';
-        setStatus('Oops, something went wrong. Please try again or email me directly.' + details, false);
+        setStatus('Oops, something went wrong. Please try again or email me directly.', false);
         if (btn) btn.textContent = 'Try Again';
     } finally {
         if (btn) {
