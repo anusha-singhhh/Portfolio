@@ -80,7 +80,6 @@ async function handleSubmit(e) {
     const formData = new FormData(form);
     formData.set('access_key', '579408e4-68c3-42d3-a0ce-db799b07ac62');
     formData.set('subject', 'New message from portfolio website');
-    formData.set('honeypot', '');
     formData.set('name', name);
     formData.set('email', email);
     formData.set('message', message);
