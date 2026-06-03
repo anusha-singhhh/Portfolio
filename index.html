@@ -5,16 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Anusha Singh — Portfolio</title>
-    <!-- Open Graph / social sharing -->
     <meta property="og:title" content="Anusha Singh — Portfolio" />
-    <meta property="og:description"
-        content="BCA student & full‑stack developer crafting thoughtful digital experiences." />
+    <meta property="og:description" content="BCA student & full‑stack developer crafting thoughtful digital experiences." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://yourdomain.com" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Nunito:wght@300;400;500;600&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -24,8 +20,8 @@
     <!-- Navigation -->
     <nav>
         <a href="#" class="nav-logo">Anusha ✦</a>
-        <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-        <ul class="nav-links">
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <ul class="nav-links" role="list">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -42,8 +38,7 @@
             <div class="hero-greeting">Hello, I'm</div>
             <h1 class="hero-name">Anusha<br><span>Singh</span></h1>
             <p class="hero-role">BCA Student & Developer</p>
-            <p class="hero-desc">Crafting thoughtful digital experiences through clean code and curious problem-solving.
-                Passionate about building things that are both functional and beautiful.</p>
+            <p class="hero-desc">Crafting thoughtful digital experiences through clean code and curious problem-solving. Passionate about building things that are both functional and beautiful.</p>
             <div class="hero-btns">
                 <a href="#projects" class="btn-primary">View My Work</a>
                 <a href="#contact" class="btn-outline">Say Hello 👋</a>
@@ -99,12 +94,8 @@
             <div class="about-grid">
                 <div class="fade-in">
                     <div class="about-body">
-                        <p>Hi! I'm Anusha Singh, a passionate BCA student with a deep love for building things on the
-                            web. I enjoy blending logic with creativity to design applications that are both functional
-                            and beautiful.</p>
-                        <p>When I'm not coding, I'm exploring new technologies, contributing to projects, and constantly
-                            growing as a developer. I believe great software is built at the intersection of empathy and
-                            engineering.</p>
+                        <p>Hi! I'm Anusha Singh, a passionate BCA student with a deep love for building things on the web. I enjoy blending logic with creativity to design applications that are both functional and beautiful.</p>
+                        <p>When I'm not coding, I'm exploring new technologies, contributing to projects, and constantly growing as a developer. I believe great software is built at the intersection of empathy and engineering.</p>
                     </div>
                     <div class="about-stats">
                         <div class="stat-pill">
@@ -130,24 +121,21 @@
                         <div class="about-card-icon ic-rose">🎨</div>
                         <div>
                             <div class="about-card-title">Frontend Development</div>
-                            <div class="about-card-body">Building responsive, accessible, and visually engaging
-                                interfaces using HTML, CSS, JavaScript, and React.</div>
+                            <div class="about-card-body">Building responsive, accessible, and visually engaging interfaces using HTML, CSS, JavaScript, and React.</div>
                         </div>
                     </div>
                     <div class="about-card">
                         <div class="about-card-icon ic-lav">⚙️</div>
                         <div>
                             <div class="about-card-title">Backend & Databases</div>
-                            <div class="about-card-body">Working with Node.js, Express, and databases like MySQL and
-                                MongoDB to power full-stack applications.</div>
+                            <div class="about-card-body">Working with Node.js, Express, and databases like MySQL and MongoDB to power full-stack applications.</div>
                         </div>
                     </div>
                     <div class="about-card">
                         <div class="about-card-icon ic-mint">🧩</div>
                         <div>
                             <div class="about-card-title">Problem Solving</div>
-                            <div class="about-card-body">Sharpening algorithmic thinking through competitive programming
-                                and data structures practice.</div>
+                            <div class="about-card-body">Sharpening algorithmic thinking through competitive programming and data structures practice.</div>
                         </div>
                     </div>
                 </div>
@@ -217,7 +205,7 @@
         </div>
     </section>
 
-    <!-- Projects (4 clean cards, numbers 01-04) -->
+    <!-- Projects -->
     <section class="projects" id="projects">
         <div class="projects-inner">
             <div class="fade-in">
@@ -227,16 +215,15 @@
             <div class="projects-grid">
                 <div class="proj-card fade-in">
                     <div class="proj-card-top">
-                        <div class="proj-emoji">🎓</div>
+                        <div class="proj-emoji">📰</div>
                         <div class="proj-num">01</div>
                     </div>
                     <div class="proj-title">Fake News Reporting System</div>
-                    <div class="proj-desc">A full-stack web app for users to report, verify with admin moderation
-                        dashboards and public fact-check status views.</div>
+                    <div class="proj-desc">A full-stack web app for users to report, verify with admin moderation dashboards and public fact-check status views.</div>
                     <div class="proj-stack">
                         <span class="proj-tech">PHP</span>
                         <span class="proj-tech">MySQL</span>
-                        <span class="proj-tech">JAVASCRIPT</span>
+                        <span class="proj-tech">JavaScript</span>
                     </div>
                     <a href="#" class="proj-link">View Project</a>
                 </div>
@@ -246,8 +233,7 @@
                         <div class="proj-num">02</div>
                     </div>
                     <div class="proj-title">E-Commerce Store</div>
-                    <div class="proj-desc">A responsive online shopping platform with cart functionality, product
-                        filtering, and order management.</div>
+                    <div class="proj-desc">A responsive online shopping platform with cart functionality, product filtering, and order management.</div>
                     <div class="proj-stack">
                         <span class="proj-tech">React</span>
                         <span class="proj-tech">Node.js</span>
@@ -261,8 +247,7 @@
                         <div class="proj-num">03</div>
                     </div>
                     <div class="proj-title">Weather Dashboard</div>
-                    <div class="proj-desc">Real-time weather app consuming OpenWeatherMap API with interactive charts
-                        and geolocation.</div>
+                    <div class="proj-desc">Real-time weather app consuming OpenWeatherMap API with interactive charts and geolocation.</div>
                     <div class="proj-stack">
                         <span class="proj-tech">JavaScript</span>
                         <span class="proj-tech">REST API</span>
@@ -286,19 +271,16 @@
                     <div class="edu-dot" style="background:#FDE8EF;">🎓</div>
                     <div class="edu-year">2023 — Present</div>
                     <div class="edu-degree">Bachelor of Computer Application (BCA)</div>
-
                 </div>
                 <div class="edu-item">
                     <div class="edu-dot" style="background:#EDE5F5;">📖</div>
                     <div class="edu-year">2021 — 2023</div>
                     <div class="edu-degree">Higher Secondary Education (+2 Management)</div>
-
                 </div>
                 <div class="edu-item">
                     <div class="edu-dot" style="background:#E3F5EE;">🌱</div>
                     <div class="edu-year">Ongoing</div>
                     <div class="edu-degree">Self-Learning & Online Courses</div>
-
                 </div>
             </div>
         </div>
@@ -313,8 +295,7 @@
             </div>
             <div class="contact-grid">
                 <div class="fade-in">
-                    <p class="contact-body">I'm always open to interesting conversations, collaboration opportunities,
-                        or just a friendly hello. Let's create something beautiful together!</p>
+                    <p class="contact-body">I'm always open to interesting conversations, collaboration opportunities, or just a friendly hello. Let's create something beautiful together!</p>
                     <div class="contact-links">
                         <a href="mailto:singhanusha013@gmail.com" class="c-link">
                             <div class="c-link-icon" style="background:#FDE8EF;color:var(--rose-deep);">@</div>
@@ -328,14 +309,13 @@
                         </a>
                         <a href="https://linkedin.com/in/anusha-singhhh" class="c-link" target="_blank" rel="noopener">
                             <div class="c-link-icon" style="background:#E8F0FE;color:#1A5EDB;">in</div>
-                            <span class="c-link-text">Linkedin</span>
+                            <span class="c-link-text">LinkedIn</span>
                             <span class="c-link-arrow">→</span>
                         </a>
                     </div>
                 </div>
                 <div class="fade-in">
                     <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-                        <!-- Replace this access key only if you want to use a different Web3Forms account -->
                         <input type="hidden" name="access_key" value="579408e4-68c3-42d3-a0ce-db799b07ac62" />
                         <input type="hidden" name="subject" value="New message from portfolio website" />
                         <input type="hidden" name="redirect" value="" />
@@ -360,8 +340,7 @@
     </section>
 
     <footer>
-        <p>© <span id="current-year"></span> <span>Anusha Singh</span> — Designed & Built with ♥ using HTML, CSS &
-            JavaScript</p>
+        <p>© <span id="current-year"></span> <span>Anusha Singh</span> — Designed & Built with ♥ using HTML, CSS & JavaScript</p>
     </footer>
 
     <script src="script.js"></script>
